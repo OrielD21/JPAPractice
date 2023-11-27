@@ -1,0 +1,11 @@
+Spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/customers
+    username: oriel
+    password: docker
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
